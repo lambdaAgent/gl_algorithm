@@ -67,9 +67,8 @@ function rotate(mat, Ntimes){
     return mat;
 }
 
-const result = rotateMatrix(matrix)
+// main
 
 const arg = JSON.parse(process.argv[2])
-
 const res = rotate(arg)
 console.log(res)

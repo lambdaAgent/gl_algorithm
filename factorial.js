@@ -15,5 +15,7 @@ function factorial(n){
     return recfact(1,n);
 }
 
-const arg = process.argv[2];
+
+// main
+const arg = JSON.parse(process.argv[2]);
 console.log(factorial(arg))
